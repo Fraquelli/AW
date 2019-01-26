@@ -1,0 +1,89 @@
+﻿* {
+	box-sizing: border-box; 
+	margin: 0;
+}
+header, footer {
+	background: rgb(0,183,234); 
+	background: -moz-linear-gradient(top, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); 
+	background: -webkit-linear-gradient(top, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); 
+	background: linear-gradient(to bottom, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); 
+	color: white;
+	padding: 40px;
+	width:100%;
+}
+table{
+	width: 50%;
+	margin: 0 auto;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center; 
+}
+th, td {
+    padding: 20px;
+	width: 25%;
+}
+th {
+    text-align: center;
+}
+header h1{
+	text-align: center;
+	width: 100%
+}
+footer p{
+	text-align: center;
+}
+header img{
+	float: left;
+}
+#content {
+	width: 100%;
+	clear: both; 
+	display: table; 
+	background: white;
+	color: black; 
+}
+nav {
+	width: 100%;
+	float: left;
+	padding: 3px;
+	background-color: rgb(0, 0, 80);
+
+}
+section {
+	width: 100%;
+	float: left;
+	padding: 15px;
+	font-size:107%;
+}
+iframe {
+	width: 600px;
+	height: 400px;
+	margin-top: 1%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	width: 25%; 
+	float: left;
+	padding: 10px;
+	margin-bottom: 0px;
+	background-color: rgb(0, 0, 150);
+	color: white;
+	text-align: center;
+}
+nav li:hover {
+	background-color: cyan;
+	color: black;
+}
+nav li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+}
